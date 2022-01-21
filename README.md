@@ -40,7 +40,7 @@ This project uses GitHub graphQL API to get the commit histories and write into 
 1. Open the "Actions" tab of your fork and click the "enable" button
 1. Edit the [environment variable](https://github.com/maxam2017/productive-box/blob/master/.github/workflows/schedule.yml#L17-L18) in `.github/workflows/schedule.yml`:
 
-   - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/maxam2017/`**`81426ab2b2033cf6b1387ebeb67a0e5c`**.
+   - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/dugadak/`**`81426ab2b2033cf6b1387ebeb67a0e5c`**.
    - **TIMEZONE:** The timezone of your location, eg. `Asia/Taipei` for Taiwan, `America/New_York` for America in New York, etc.
 
 1. Go to the repo **Settings > Secrets**
